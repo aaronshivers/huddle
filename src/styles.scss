@@ -22,7 +22,14 @@ body {
   background-color: $purple;
   background-image: url("src/assets/images/bg-mobile.svg");
   background-repeat: no-repeat;
-  background-size: 375px 373px;
+  background-size: contain;
   height: 100%;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("src/assets/images/bg-desktop.svg");
+    background-size: cover;
+  }
 }
