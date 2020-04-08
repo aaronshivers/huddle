@@ -1,4 +1,4 @@
-[preview image](src/assets/images/desktop-preview.jpg)
+![preview image](src/assets/images/desktop-preview.jpg)
 
 # Huddle
 
